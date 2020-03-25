@@ -1,0 +1,26 @@
+section {
+}
+
+div:nth-child(1) {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background: red;
+  left: 0;
+  transition: left 3s ease;
+}
+
+div:nth-child(2) {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background: green;
+  left: 0;
+  top: 110px;
+  transition: left 3s ease;
+  transition-delay: 1s;
+}
+
+section:hover {
+  left: 91%;
+}
